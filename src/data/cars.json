@@ -1,106 +1,88 @@
-[
+{
+  "cars": [
     {
-      "id": 1,
+      "id": "1",
       "make": "Toyota",
-      "model": "Corolla",
-      "year": 2020,
-      "color": "Silver",
-      "price": 18500,
-      "mileage": 25000,
-      "fuelType": "Gasoline",
-      "transmission": "Automatic",
-      "available": true,
-      "image": "/api/placeholder/400/250"
-    },
-    {
-      "id": 2,
-      "make": "Honda",
-      "model": "Civic",
-      "year": 2019,
-      "color": "Blue",
-      "price": 17200,
-      "mileage": 32000,
-      "fuelType": "Gasoline",
-      "transmission": "Manual",
-      "available": true,
-      "image": "/api/placeholder/400/250"
-    },
-    {
-      "id": 3,
-      "make": "Ford",
-      "model": "Mustang",
-      "year": 2021,
-      "color": "Red",
+      "model": "Camry",
+      "year": 2023,
       "price": 35000,
-      "mileage": 12000,
-      "fuelType": "Gasoline",
-      "transmission": "Automatic",
-      "available": false,
-      "image": "/api/placeholder/400/250"
-    },
-    {
-      "id": 4,
-      "make": "Tesla",
-      "model": "Model 3",
-      "year": 2022,
-      "color": "White",
-      "price": 48000,
-      "mileage": 5000,
-      "fuelType": "Electric",
-      "transmission": "Automatic",
-      "available": true,
-      "image": "/api/placeholder/400/250"
-    },
-    {
-      "id": 5,
-      "make": "BMW",
-      "model": "X5",
-      "year": 2020,
-      "color": "Black",
-      "price": 52000,
-      "mileage": 18000,
-      "fuelType": "Diesel",
-      "transmission": "Automatic",
-      "available": true,
-      "image": "/api/placeholder/400/250"
-    },
-    {
-      "id": 6,
-      "make": "Mazda",
-      "model": "CX-5",
-      "year": 2021,
-      "color": "Gray",
-      "price": 28500,
-      "mileage": 14000,
-      "fuelType": "Gasoline",
-      "transmission": "Automatic",
-      "available": true,
-      "image": "/api/placeholder/400/250"
-    },
-    {
-      "id": 7,
-      "make": "Audi",
-      "model": "A4",
-      "year": 2019,
+      "mileage": 0,
       "color": "Silver",
-      "price": 38000,
-      "mileage": 22000,
-      "fuelType": "Gasoline",
-      "transmission": "Automatic",
-      "available": false,
-      "image": "/api/placeholder/400/250"
-    },
-    {
-      "id": 8,
-      "make": "Hyundai",
-      "model": "Tucson",
-      "year": 2022,
-      "color": "Green",
-      "price": 26000,
-      "mileage": 8000,
       "fuelType": "Hybrid",
       "transmission": "Automatic",
-      "available": true,
-      "image": "/api/placeholder/400/250"
+      "status": "Available",
+      "features": [
+        "Bluetooth",
+        "Backup Camera",
+        "Lane Departure Warning",
+        "Adaptive Cruise Control",
+        "Wireless Phone Charging",
+        "360-Degree Camera",
+        "Heated Seats",
+        "Ventilated Seats",
+        "Panoramic Sunroof"
+      ],
+      "specifications": {
+        "engine": "2.5L 4-Cylinder",
+        "horsepower": "208 hp",
+        "torque": "163 lb-ft",
+        "fuelEconomy": {
+          "city": "51 mpg",
+          "highway": "53 mpg"
+        },
+        "dimensions": {
+          "length": "192.1 inches",
+          "width": "72.4 inches",
+          "height": "56.9 inches",
+          "wheelbase": "111.2 inches"
+        },
+        "weight": "3,572 lbs",
+        "cargo": "15.1 cubic feet"
+      },
+      "maintenance": {
+        "lastService": "2024-01-15",
+        "nextService": "2024-07-15",
+        "serviceHistory": []
+      },
+      "warranty": {
+        "basic": "36 months/36,000 miles",
+        "powertrain": "60 months/60,000 miles",
+        "hybrid": "96 months/100,000 miles"
+      },
+      "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=800",
+      "gallery": [
+        "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=800",
+        "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=800&q=60"
+      ],
+      "location": "Main Showroom",
+      "vin": "1HGCM82633A123456",
+      "addedDate": "2024-03-01",
+      "lastModified": "2024-03-15"
     }
-  ]
+  ],
+  "statistics": {
+    "totalCars": 1,
+    "availableCars": 1,
+    "reservedCars": 0,
+    "totalValue": 35000,
+    "averagePrice": 35000,
+    "popularMakes": ["Toyota"],
+    "popularColors": ["Silver"],
+    "salesData": {
+      "lastMonth": {
+        "total": 5,
+        "revenue": 175000
+      },
+      "thisMonth": {
+        "total": 3,
+        "revenue": 105000
+      }
+    },
+    "inventoryTrends": {
+      "newArrivals": 1,
+      "reserved": 0,
+      "sold": 0
+    }
+  }
+}

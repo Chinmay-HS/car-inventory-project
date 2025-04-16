@@ -1,0 +1,52 @@
+{
+  "sales": [
+    {
+      "id": "1",
+      "carId": "1",
+      "saleDate": "2024-03-15",
+      "salePrice": 34000,
+      "customerName": "John Doe",
+      "customerEmail": "john@example.com",
+      "paymentMethod": "Finance",
+      "salesPerson": "Alice Smith",
+      "commission": 1020,
+      "notes": "First-time buyer, 60-month financing"
+    }
+  ],
+  "salesMetrics": {
+    "dailyStats": {
+      "2024-03-15": {
+        "totalSales": 1,
+        "revenue": 34000,
+        "commissions": 1020
+      }
+    },
+    "monthlyStats": {
+      "2024-03": {
+        "totalSales": 1,
+        "revenue": 34000,
+        "commissions": 1020,
+        "averagePrice": 34000,
+        "topSalesPerson": "Alice Smith"
+      }
+    },
+    "yearlyStats": {
+      "2024": {
+        "totalSales": 1,
+        "revenue": 34000,
+        "commissions": 1020,
+        "averagePrice": 34000,
+        "bestMonth": "March",
+        "topSalesPerson": "Alice Smith"
+      }
+    },
+    "salesPeople": {
+      "Alice Smith": {
+        "totalSales": 1,
+        "revenue": 34000,
+        "commissions": 1020,
+        "averageSalePrice": 34000
+      }
+    }
+  }
+}
